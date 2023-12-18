@@ -20,7 +20,7 @@ p {
 
 .header-section {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     padding: 25px 10%;
     position: relative;
     background-size: cover;
@@ -62,7 +62,7 @@ p {
 }
 
 .header-content h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 900;
 }
 
@@ -74,11 +74,12 @@ p {
 
 .email-sign-up {
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .sign-up-content {
     gap: 10px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,11 +96,11 @@ p {
 }
 
 .btn {
-    font-size: 25px;
-    padding: 13px 30px;
+    font-size: 20px;
+    padding: 15px 30px;
     border-radius: 5px;
-    border: 1px solid #E50914;
-    background-color: #E50914;
+    border: 1px solid rgb(229, 9, 20);
+    background-color: rgb(229, 9, 20);
 }
 
 .get-started {
@@ -113,15 +114,16 @@ p {
 }
 
 .section-content {
+    padding: 80px;
     display: flex;
-    padding: 80px 0px;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .left-item-one h1, .right-item-two h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .left-item-one p, .right-item-two p {
@@ -195,8 +197,8 @@ p {
     flex-direction: column;
 }
 
-.container h1 {
-    font-size: 45px;
+.faq-area h1 {
+    font-size: 35px;
     text-align: center;
 }
 
@@ -215,7 +217,7 @@ p {
     display: flex;
     cursor: pointer;
     position: relative;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2rem;
     align-items: center;
 }
 
@@ -279,8 +281,8 @@ p {
 }
 
 .faq-area .sign-up-content {
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 60%;
+    margin: 0px auto;
 }
 
 .footer {
@@ -301,7 +303,7 @@ p {
 
 .footer .footer-columns {
     display: grid;
-    grid-gap: 12.5rem;
+    grid-gap: 7.5rem;
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -323,10 +325,10 @@ p {
 }
 
 .dropdown-container {
-    gap: 10px;
+    gap: 5px;
     display: flex;
+    margin: 20px 0px;
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    margin: 20px 0px;
     border: 1px solid white;
 }
